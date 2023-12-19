@@ -1,0 +1,7 @@
+{
+  "name": "lib",
+  "packageManager": "yarn@4.0.2",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js"
+}
