@@ -20,3 +20,4 @@ packages/blog/src/content/templates
 #.pnp.*
 
 **/.DS_Store
+**/tsconfig.tsbuildinfo
