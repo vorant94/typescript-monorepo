@@ -2,7 +2,13 @@
   "name": "typescript-monorepo",
   "packageManager": "yarn@4.0.2",
   "private": true,
+  "scripts": {
+    "dev": "concurrently \"yarn workspace app build:watch\" \"yarn workspace app start:watch\""
+  },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
 }

@@ -1,5 +1,8 @@
 import express from 'express';
 import {REPLY} from "lib";
+import { install } from 'source-map-support';
+
+install();
 
 const app = express();
 const port =  3000;
